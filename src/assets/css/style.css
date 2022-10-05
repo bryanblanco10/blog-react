@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #010D26;
+  --second-color: #BAC2D9;
+  --third-color: #758EBF;
+  --font-family: 'Noto Sans Mono', monospace;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+header {
+  padding: 25px;
+  background-color: var(--primary-color);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a,
+header nav button  {
+  color: var(--second-color);
+  margin-right: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: var(--third-color);
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  border: none;
+  border-radius: .2rem;
+  -webkit-border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -ms-border-radius: .2rem;
+  -o-border-radius: .2rem;
+  font-family: var(--font-family);
+}
+
+.active {
+  background-color: #1e58cc;
+  color: white;
+}
+
+.title-blog {
+  text-align: center;
+}
+
+.card {
+  padding: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  cursor: pointer;
+}
+
+.card p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}
+
+.list-blog {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.content-img {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: left;
+  padding: 30px;
+}

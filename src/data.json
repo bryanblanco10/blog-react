@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Para qué quieren el Metaverso las empresas",
+    "img": "images/metaverse_icon.png",
+    "description": "Siempre que hay un descubrimiento científico o un avance tecnológico, a la mayoría de la sociedad le surge la misma pregunta: ¿Y eso para qué sirve?. Para qué sirve un neutrino, para qué sirve Blockchain y ahora para qué sirve el Metaverso. Realmente lo que quieren decir es para qué les sirve a ellos. Vivimos en la era de la utilidad. Lo que no tiene un uso practico instantáneo, sencillamente no vale.",
+    "slug": "para-que-quieren-el-metaverso"
+  },
+  {
+    "title": "Qué son los servidores virtuales y qué hay que tener en cuenta",
+    "img": "images/hosting_monitors_server_vps.png",
+    "description": "El uso de un servidor virtual se está convirtiendo en una solución cada vez más popular para casi todas las organizaciones que buscan un mayor rendimiento. Ya sea para la gestión de datos, el almacenamiento o la comunicación, la virtualización ofrece muchas ventajas en términos de optimización de recursos y competitividad en las empresas.",
+    "slug": "que-son-los-servidores-virtuales"
+  },
+  {
+    "title": "Fundamentos de la Inteligencia Artificial",
+    "img": "images/AI.png",
+    "description": "En esencia, la Inteligencia Artificial (en adelante AI por sus siglas en inglés Artificial Intelligence) es programación informática que aprende y se adapta. O dicho de otro modo, es el nombre que se le da a cualquier sistema informático al que se le enseña a imitar comportamientos humanos inteligentes.",
+    "slug": "fundamentos-de-la-inteligencia-artificial"
+  },
+  {
+    "title": "Cómo comportarse ante estafas por correo electrónico",
+    "img": "images/phishing.png",
+    "description": "Las estafas de phishing por correo electrónico son cada vez más sofisticadas y más difíciles de detectar. El creciente uso de la automatización para los ataques de phishing y el hecho de que el ransomware se ha vuelto muy rentable para los ciberdelincuentes, han disparado las estafas de phishing por correo electrónico.",
+    "slug": "como-comportarse-ante-estafas"
+  },
+  {
+    "title": "La importancia de los programas de Bug Bounty",
+    "img": "images/bug_spider_icon.png",
+    "description": "Un programa de recompensa de errores o Bug Bounty por sus siglas en inglés, es un acuerdo ofrecido por plataformas web, organizaciones y desarrolladores de software mediante el cual los investigadores pueden recibir reconocimiento y compensación económica por informar de errores de seguridad, especialmente aquellos relacionados con exploits y vulnerabilidades.",
+    "slug": "la-importancia-de-los-programas"
+  },
+  {
+    "title": "Cómo desinstalar Adobe Creative Cloud por completo",
+    "img": "images/adobe_creativecloud_icon.png",
+    "description": "Las aplicaciones de Adobe Creative Cloud son de las más utilizadas por los usuarios de Mac. Pero es posible que necesites desinstalar Adobe CC, ya sea porque has dejado que caduque tu suscripción y no tienes intención de renovarla, porque has encontrado un software alternativo a Creative Cloud o por cualquier otro motivo.",
+    "slug": "como-desintalar-adobe-creative-cloud"
+  }
+]
