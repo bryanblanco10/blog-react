@@ -1,7 +1,9 @@
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../context/auth";
 
-export const CardBlog = ({ item }) => {
+export const CardBlog = ({ item, deletePost }) => {
   const navigate = useNavigate();
+  const auth = useAuth();
 
   const redirect = (slug) => {
     navigate(`/detalle-blog/${slug}`);
@@ -17,6 +19,7 @@ export const CardBlog = ({ item }) => {
       <p>
         { item.description }
       </p>
+      {auth.user?.isAdmin && <button className="btn_primary" onClick={() => deletePost(item.title)}>Eliminar</button>}
     </div>
   );
 };
